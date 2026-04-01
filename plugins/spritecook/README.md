@@ -25,6 +25,16 @@ Manual fallback:
 
 ## Relationship to the existing installer
 
+Codex install commands:
+
+```powershell
+iwr -useb https://spritecook.ai/install-codex.ps1 | iex
+```
+
+```bash
+curl -fsSL https://spritecook.ai/install-codex.sh | bash
+```
+
 The current one-liner installer:
 
 ```powershell

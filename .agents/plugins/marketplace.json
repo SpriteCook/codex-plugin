@@ -1,7 +1,7 @@
 {
-  "name": "spritecook-plugins",
+  "name": "spritecook",
   "interface": {
-    "displayName": "SpriteCook Plugins"
+    "displayName": "SpriteCook"
   },
   "plugins": [
     {
