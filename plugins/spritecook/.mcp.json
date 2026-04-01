@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "spritecook": {
+      "type": "http",
+      "url": "https://api.spritecook.ai/mcp/openai",
+      "note": "SpriteCook's hosted MCP server for Codex. Codex should use the native OAuth connection flow exposed by this endpoint. For non-Codex editors or legacy local bootstrap, use `npx spritecook-mcp setup`."
+    }
+  }
+}

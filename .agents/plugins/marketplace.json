@@ -1,0 +1,20 @@
+{
+  "name": "spritecook-plugins",
+  "interface": {
+    "displayName": "SpriteCook Plugins"
+  },
+  "plugins": [
+    {
+      "name": "spritecook",
+      "source": {
+        "source": "local",
+        "path": "./plugins/spritecook"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Design"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "spritecook",
+  "version": "0.1.2",
+  "description": "Generate sprites, textures, and short animations in Codex with the SpriteCook MCP server and guided game-art workflows.",
+  "author": {
+    "name": "SpriteCook",
+    "email": "hello@spritecook.ai",
+    "url": "https://spritecook.ai"
+  },
+  "homepage": "https://spritecook.ai/agents",
+  "repository": "https://github.com/spritecook/spritecook-codex-plugin",
+  "license": "MIT",
+  "keywords": [
+    "spritecook",
+    "game-art",
+    "sprites",
+    "pixel-art",
+    "animation",
+    "mcp",
+    "codex"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "SpriteCook",
+    "shortDescription": "Generate game sprites and animations in Codex",
+    "longDescription": "Bring SpriteCook into Codex with the hosted SpriteCook MCP server plus focused skills for still-image generation, animation workflows, credits checks, asset manifests, and consistent multi-asset game art pipelines.",
+    "developerName": "SpriteCook",
+    "category": "Design",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://spritecook.ai",
+    "privacyPolicyURL": "https://spritecook.ai/privacy",
+    "termsOfServiceURL": "https://spritecook.ai/terms",
+    "defaultPrompt": [
+      "Generate a tiny pixel art knight character, idle pose.",
+      "Animate this existing sprite into a short idle loop",
+      "Generate a barbarian warrior, with the knight as style reference"
+    ],
+    "brandColor": "#FF7A00",
+    "composerIcon": "./assets/spritecook-logo.png",
+    "logo": "./assets/spritecook-logo.png",
+    "screenshots": []
+  }
+}
