@@ -7,7 +7,7 @@ description: "Animation guide for SpriteCook. Use with spritecook-workflow-essen
 
 Use this skill for animation workflows. Pair it with `spritecook-workflow-essentials` for credits, manifests, safe downloads, and shared defaults.
 
-**Requires:** The SpriteCook Codex plugin or another editor setup that connects the SpriteCook MCP server. For non-plugin setups, use `npx spritecook-mcp setup` or see [spritecook.ai](https://spritecook.ai).
+**Requires:** SpriteCook MCP server connected to your editor. Set up with `npx spritecook-mcp setup` or see [spritecook.ai](https://spritecook.ai).
 
 ## Tool
 

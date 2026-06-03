@@ -7,7 +7,7 @@ description: "Shared workflow rules for SpriteCook. Use together with spritecook
 
 Use this alongside the SpriteCook image or animation skill whenever SpriteCook MCP tools are available.
 
-**Requires:** The SpriteCook Codex plugin or another editor setup that connects the SpriteCook MCP server. For non-plugin setups, use `npx spritecook-mcp setup` or see [spritecook.ai](https://spritecook.ai).
+**Requires:** SpriteCook MCP server connected to your editor. Set up with `npx spritecook-mcp setup` or see [spritecook.ai](https://spritecook.ai).
 
 ## Preflight Checklist
 
