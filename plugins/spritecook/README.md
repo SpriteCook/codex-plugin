@@ -8,6 +8,7 @@ This plugin packages the SpriteCook MCP connection and the core SpriteCook skill
 - `spritecook-workflow-essentials`
 - `spritecook-generate-sprites`
 - `spritecook-animate-assets`
+- `spritecook-use-assets-in-godot`
 
 ## Authentication
 
