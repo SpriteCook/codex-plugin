@@ -1,6 +1,6 @@
 {
   "name": "spritecook",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Generate sprites, textures, and short animations in Codex with the SpriteCook MCP server and guided game-art workflows.",
   "author": {
     "name": "SpriteCook",
@@ -8,7 +8,7 @@
     "url": "https://spritecook.ai"
   },
   "homepage": "https://spritecook.ai/agents",
-  "repository": "https://github.com/spritecook/spritecook-codex-plugin",
+  "repository": "https://github.com/spritecook/codex-plugin",
   "license": "MIT",
   "keywords": [
     "spritecook",
