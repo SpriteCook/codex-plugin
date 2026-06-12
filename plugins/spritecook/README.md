@@ -50,10 +50,3 @@ still matters as a fallback bootstrap flow because it:
 
 This plugin replaces the old "install the skills plus MCP manually" workflow for Codex discovery and packaging. The existing installer remains the fallback path for non-Codex editors and local MCP bootstrap outside the OAuth flow.
 
-## Updating bundled skills
-
-The source-of-truth skills live in:
-
-`/path/to/spritecook-skills`
-
-When those skills change, copy the updated `SKILL.md` files into `plugins/spritecook/skills/` and keep any Codex-plugin-specific wording aligned.
