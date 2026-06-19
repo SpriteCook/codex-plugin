@@ -1,7 +1,7 @@
 {
   "name": "spritecook",
-  "version": "0.1.5",
-  "description": "Generate sprites, textures, and short animations in Codex with the SpriteCook MCP server and guided game-art workflows.",
+  "version": "0.1.6",
+  "description": "Generate sprites, upload local references, and animate game art in Codex with the SpriteCook MCP server and guided workflows.",
   "author": {
     "name": "SpriteCook",
     "email": "hello@spritecook.ai",
@@ -24,7 +24,7 @@
   "interface": {
     "displayName": "SpriteCook",
     "shortDescription": "Generate game sprites and animations in Codex",
-    "longDescription": "Bring SpriteCook into Codex with the hosted SpriteCook MCP server plus focused skills for still-image generation, animation workflows, credits checks, asset manifests, and consistent multi-asset game art pipelines.",
+    "longDescription": "Bring SpriteCook into Codex with the hosted SpriteCook MCP server plus focused skills for still-image generation, local-file uploads, presets, animation workflows, credits checks, asset manifests, and consistent multi-asset game art pipelines.",
     "developerName": "SpriteCook",
     "category": "Design",
     "capabilities": [
@@ -36,6 +36,7 @@
     "termsOfServiceURL": "https://spritecook.ai/terms",
     "defaultPrompt": [
       "Generate a tiny pixel art knight character, idle pose.",
+      "Upload this local sprite sheet and use it as a style guide",
       "Animate this existing sprite into a short idle loop",
       "Generate a barbarian warrior, with the knight as style reference"
     ],
