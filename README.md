@@ -45,7 +45,7 @@ Codex installs local plugins from the marketplace entry in [`.agents/plugins/mar
 
 The plugin points Codex at the hosted production MCP endpoint:
 
-- `https://api.spritecook.ai/mcp/openai`
+- `https://mcp.spritecook.ai/mcp/openai`
 
 Codex should handle authentication through the SpriteCook OAuth flow during install or first protected use.
 

@@ -4,7 +4,7 @@ This plugin packages the SpriteCook MCP connection and the core SpriteCook skill
 
 ## What it includes
 
-- Hosted SpriteCook MCP server configuration at `https://api.spritecook.ai/mcp/openai`
+- Hosted SpriteCook MCP server configuration at `https://mcp.spritecook.ai/mcp/openai`
 - `spritecook-workflow-essentials`
 - `spritecook-generate-sprites`
 - `spritecook-animate-assets`

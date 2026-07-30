@@ -1,6 +1,6 @@
 {
   "name": "spritecook",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Generate sprites, upload local references, and animate game art in Codex with the SpriteCook MCP server and guided workflows.",
   "author": {
     "name": "SpriteCook",
