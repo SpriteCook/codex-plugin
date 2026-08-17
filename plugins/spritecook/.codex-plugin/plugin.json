@@ -1,6 +1,6 @@
 {
   "name": "spritecook",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "Generate sprites, build cohesive UI kits, upload local references, and animate game art in Codex with SpriteCook.",
   "author": {
     "name": "SpriteCook",
