@@ -60,3 +60,9 @@ npx spritecook-mcp setup
 - No plugin repo environment variables are required.
 - No database migrations are required by this plugin package.
 - If you change plugin metadata or assets, bump the plugin version in [`plugins/spritecook/.codex-plugin/plugin.json`](plugins/spritecook/.codex-plugin/plugin.json) so Codex refreshes the installed cache cleanly.
+
+## Skill source of truth
+
+Bundled workflow skills come from [SpriteCook/skills](https://github.com/SpriteCook/skills). Update that repository first, then sync its committed skills into `plugins/spritecook/skills/`. [skills-source.json](skills-source.json) records the exact bundled source revision.
+
+This version recommends Nano Banana 2.1 (`gemini-nano-banana-2.1`) for new pixel-art sprites and characters. Explicit model choices, presets, inherited edit models, and dedicated UI-kit defaults are preserved. No new environment variables or database migrations are required.
