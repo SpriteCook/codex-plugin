@@ -1,7 +1,7 @@
 {
   "name": "spritecook",
-  "version": "0.1.12",
-  "description": "Generate sprites, build cohesive UI kits, upload local references, and animate game art in Codex with SpriteCook.",
+  "version": "0.1.16",
+  "description": "Generate sprites, build matching UI kits, upload reference images, and animate game art with SpriteCook.",
   "author": {
     "name": "SpriteCook",
     "email": "hello@spritecook.ai",
@@ -23,23 +23,22 @@
   "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "SpriteCook",
-    "shortDescription": "Generate game art and cohesive UI kits in Codex",
-    "longDescription": "Bring SpriteCook into Codex with the hosted SpriteCook MCP server plus focused skills for concept-first UI kits, still-image generation, local-file uploads, presets, animation workflows, credit checks, asset manifests, and consistent multi-asset game art pipelines.",
+    "shortDescription": "Create and animate game art",
+    "longDescription": "Create sprites, tilesets, animations, and matching UI kits for your game in ChatGPT and Codex. Use reference images and saved presets to keep assets consistent, work with your SpriteCook asset library, and prepare character assets for Godot. Connect a SpriteCook account to get started. Available tools depend on your account, and generation can take a few minutes.",
     "developerName": "SpriteCook",
-    "category": "Design",
+    "category": "Creativity",
     "capabilities": [
       "Interactive",
       "Write"
     ],
     "websiteURL": "https://spritecook.ai",
+    "supportURL": "https://www.spritecook.ai/contact",
     "privacyPolicyURL": "https://spritecook.ai/privacy",
     "termsOfServiceURL": "https://spritecook.ai/terms",
     "defaultPrompt": [
       "Generate a tiny pixel art knight character, idle pose.",
-      "Design a cohesive inventory screen, extract its reusable UI components, and finalize the UI kit",
-      "Upload this local sprite sheet and use it as a style guide",
-      "Animate this existing sprite into a short idle loop",
-      "Generate a barbarian warrior, with the knight as style reference"
+      "Design a matching inventory screen, extract its reusable UI components, and finalize the UI kit.",
+      "Animate this existing sprite into a short idle loop."
     ],
     "brandColor": "#FF7A00",
     "composerIcon": "./assets/spritecook-logo.png",
